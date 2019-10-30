@@ -21,3 +21,28 @@ CRITICAL - 2019-10-29 19:53:37 --> Class 'App\Models\Places' not found
 #3 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\COMP4711\\XML...')
 #5 {main}
+CRITICAL - 2019-10-29 20:28:22 --> Class 'App\Models\Places' not found
+#0 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(844): App\Controllers\Travel->index()
+#1 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Travel))
+#2 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(245): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\COMP4711\\XML...')
+#5 {main}
+CRITICAL - 2019-10-29 20:28:42 --> Class 'App\Models\Places' not found
+#0 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(844): App\Controllers\Travel->index()
+#1 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Travel))
+#2 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(245): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\COMP4711\\XML...')
+#5 {main}
+CRITICAL - 2019-10-29 20:31:12 --> fopen(D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\writable\data/Placess.csv): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(D:\\COMP47...', 'D:\\COMP4711\\XML...', 29, Array)
+#1 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\app\Models\Simple\CSVModel.php(29): fopen('D:\\COMP4711\\XML...', 'r')
+#2 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\app\Models\Simple\CSVModel.php(21): App\Models\Simple\CSVModel->load()
+#3 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\app\Controllers\Travel.php(9): App\Models\Simple\CSVModel->__construct()
+#4 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(844): App\Controllers\Travel->index()
+#5 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Travel))
+#6 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\CodeIgniter.php(245): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\COMP4711\XMLPP1\htdocs\dgpt4711lab05\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\COMP4711\\XML...')
+#9 {main}
